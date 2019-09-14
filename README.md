@@ -26,7 +26,7 @@ while (picked_number !=x):
 print("Succesful!! Number of  guesses is: " + str(guessed_number))
 
 
-#Exercise: develop a code that reads three integers from user and prints out the maximum of the numbers.
+*******#Exercise: develop a code that reads three integers from user and prints out the maximum of the numbers.
 #Required Time: 10 minutes
 
 x= int(input("integer number 1: "))
@@ -39,5 +39,29 @@ if (y>x,z):
      print("maximum of the three is:" +(str(y)))
 if (z>x,y):
     print("maximum of the three is:" +(str(z)))
+
+
+
+*******Develop the code that takes in three integers and prints out if they belong to a right triangle
+
+# biggest_number = 0
+a =  int(input("Enter number a "))
+b =  int(input("Enter number b"))
+c=   int(input("Enter number c"))
+
+if (a==b and b==c):
+     print(str(a) + " is the maximum")
+if (a>b and a>c):
+     print(str(a) + "is the maximum")
+if (b>a and b>c):
+     print(str(b) + "is the maximum")
+if (c>b and c>a):
+     print(str(c) + "is the maximum ")
+
+if (a**2 == b**2 + c**2) or(b**2 == a**2 + c**2) or (c**2 == b**2 + a**2):
+    print("Yes, they belong to a right triangle.")
+else:
+    print("No, they belong to a right triangle.")
+
 
 
