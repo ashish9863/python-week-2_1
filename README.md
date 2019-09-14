@@ -24,3 +24,20 @@ while (picked_number !=x):
     guessed_number += 1
 
 print("Succesful!! Number of  guesses is: " + str(guessed_number))
+
+
+#Exercise: develop a code that reads three integers from user and prints out the maximum of the numbers.
+#Required Time: 10 minutes
+
+x= int(input("integer number 1: "))
+y= int(input("integer number 2: "))
+z= int(input("integer number 3: "))
+
+if(x>y,z):
+     print("maximum of the three is:" +(str(x)))
+if (y>x,z):
+     print("maximum of the three is:" +(str(y)))
+if (z>x,y):
+    print("maximum of the three is:" +(str(z)))
+
+
